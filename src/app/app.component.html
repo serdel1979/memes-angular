@@ -1,2 +1,19 @@
-<h1>Hola</h1>
+<div class="d-flex">
+  <!--la clase d-flex pone los div de adentro uno al lado del otro-->
+  <div class="bg-dark border-right p-3" id="sidebar">
+    <h3 class="text-light">
+      Gifs-App
+    </h3>
+    <hr class="text-white" />
+    <div class="list-group list-reset">
+      <a *ngFor="let l of n" href="#" class="list-group-item list-group-iten-action">
+        Dashboard
+        {{l}}
+      </a>
+    </div>
+  </div>
+  <div>
+    mundo
+  </div>
 
+</div>
