@@ -2,33 +2,9 @@
   <!--la clase d-flex pone los div de adentro uno al lado del otro-->
 
   <!-- sidebar -->
-  <div class="bg-dark border-right p-3" id="sidebar">
-    <h3 class="text-light">
-      Gifs-App
-    </h3>
-    <hr class="text-white" />
-    <div class="list-group list-reset">
-      <a *ngFor="let l of n" href="#" class="list-group-item list-group-iten-action">
-        Dashboard
-        {{l}}
-      </a>
-    </div>
-  </div>
+  <app-sidebar></app-sidebar>
+  <!--fin sidebar -->
 
-   <!--fin sidebar -->
-  <div class="container">
-    <div class="row p-3">
-      <div class="col">
-        <input type="text" class="form-control" placeholder="Buscar gifts...">
-      </div>
-    </div>
-
-    <hr />
-    <div class="row">
-      <div class="col">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eum, doloremque, iure necessitatibus velit, nulla assumenda consequuntur suscipit dignissimos quidem nam! Sunt qui quisquam nesciunt architecto, error exercitationem ex est.
-      </div>
-    </div>
-  </div>
+  <app-gifs-page class="container"></app-gifs-page>
 
 </div>
