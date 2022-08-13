@@ -14,8 +14,6 @@ import { ResultadosComponent } from './resultados/resultados.component';
   ],
   exports:[
     GifsPageComponent,
-    BusquedaComponent,
-    ResultadosComponent
   ],
   imports: [
     CommonModule
