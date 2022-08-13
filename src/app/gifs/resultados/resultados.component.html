@@ -1,5 +1,15 @@
-<div class="col">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eum, doloremque, iure necessitatibus velit,
-    nulla assumenda consequuntur suscipit dignissimos quidem nam! Sunt qui quisquam nesciunt architecto, error
-    exercitationem ex est.
+<div class="row">
+    <div *ngFor="let im of resultados"
+       class="col-md-4 col-sm-6">
+        <div class="card">
+            <img [src]="im.images.downsized_medium.url" [alt]="im.title"
+            class="card-img-top">
+            <div class="card-body">
+                
+                <p class="card-text">
+                    {{ im.title }}
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
