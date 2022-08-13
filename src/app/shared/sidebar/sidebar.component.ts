@@ -14,7 +14,7 @@ export class SidebarComponent {
  
 
   get historial(){
-    return this.giftServices.getHistorial();
+    return this.giftServices.historial;
   }
 
 }
